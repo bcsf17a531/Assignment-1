@@ -7,17 +7,17 @@
     android:clickable="false"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="165dp"
-        android:layout_height="69dp"
-        android:layout_marginStart="151dp"
-        android:layout_marginTop="267dp"
-        android:layout_marginEnd="151dp"
-        android:layout_marginBottom="398dp"
-        android:gravity="center"
-        android:text="Uzair Ajmal"
-        android:textSize="24sp"
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="309dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="246dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="440dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textIsSelectable="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
